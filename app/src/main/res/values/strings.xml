@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Translator</string>
+    <string name="translator">Translator</string>
+    <string name="pilih_bahasa">Pilih Bahasa</string>
+    <string name="ambil_gambar">Ambil Gambar</string>
+    <string name="created_by_purnawansari">Created by : Purnawansari</string>
+    <string name="gambar_teks">Gambar Teks</string>
+    <string name="hasil_terjemahan">Hasil Terjemahan</string>
+    <string name="hasil_konversi">Hasil Konversi Image to Teks</string>
+    <string name="translate">Translate</string>
+    <string name="inggris">Inggris</string>
+    <string name="indonesia">Indonesia</string>
+
+    <string-array name="pilihbahasa">
+        <item>English to Indonesia</item>
+        <item>Indonesia to English</item>
+    </string-array>
+
+
+</resources>

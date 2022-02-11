@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545280462620",
+    "project_id": "skripsi-translator2-72232",
+    "storage_bucket": "skripsi-translator2-72232.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545280462620:android:d221e9bbe1aa7289c2b4d9",
+        "android_client_info": {
+          "package_name": "com.example.translator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545280462620-g9pj7f0tvcnsmoe7ekm4f060ec4kb8hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvt6jwuVhc6R3OITXnrTY5SWRzh69UZCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545280462620-g9pj7f0tvcnsmoe7ekm4f060ec4kb8hc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

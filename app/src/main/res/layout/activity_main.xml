@@ -1,0 +1,89 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    >
+
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/bendera" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/translator"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/pilih_bahasa"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="38dp"
+        android:background="@drawable/white_gradient_bkg"
+        android:entries="@array/pilihbahasa"
+        android:focusable="auto"
+        android:padding="10dp"
+        android:soundEffectsEnabled="true"
+        android:spinnerMode="dialog"
+        android:splitMotionEvents="true" />
+
+    <Button
+        android:id="@+id/btnSelectPhoto"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@android:drawable/ic_menu_camera"
+        android:drawableLeft="@android:drawable/ic_menu_camera"
+        android:text="@string/ambil_gambar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:gravity="bottom|center_horizontal"
+            android:text="@string/created_by_purnawansari"
+            android:textColor="@android:color/background_light" />
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:visibility="gone"
+            tools:visibility="gone" />
+
+
+    </LinearLayout>
+</LinearLayout>
